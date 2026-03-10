@@ -17,35 +17,36 @@ A full-stack web application that allows users to book cab rides, manage trips, 
 ## 🛠 Tech Stack
 
 Frontend
+
 - REACT
 - Tailwind
-  
 
 Backend
+
 - Node.js
 - Express.js
 
 Database
+
 - Supabase
 
 Tools
+
 - GitHub
 
 ---
 
 ## 📂 Project Structure
 
-
 Cab-Booking-Project
 │
 ├── Client
-│   └── Frontend
+│ └── Frontend
 │
 ├── Server
 │
 ├── .gitignore
 └── README.md
-
 
 ---
 
@@ -53,27 +54,19 @@ Cab-Booking-Project
 
 Clone the repository
 
-
 git clone https://github.com/harshilltyagi/Cab-Booking-Project.git
-
 
 Go to project folder
 
-
 cd Cab-Booking-Project
-
 
 Install dependencies
 
-
 npm install
-
 
 Run project
 
-
 npm start
-
 
 ---
 
@@ -92,3 +85,5 @@ Harshil Tyagi
 
 GitHub  
 https://github.com/harshilltyagi
+
+Live Demo: https://cab-booking-project-five.vercel.app
