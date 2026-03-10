@@ -186,8 +186,12 @@ function RiderDashboard() {
   };
 
   const handleLogout = async () => {
-    await signOut();
-    window.location.href = "/login";
+    try {
+      await signOut();
+      window.location.href = "/login";
+    } catch (error) {
+      console.log("Logout error:", error);
+    }
   };
 
   const getStatusMessage = (status) => {
