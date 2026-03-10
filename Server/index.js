@@ -13,8 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://cab-booking-project-git-main-harshilltyagis-projects.vercel.app",
-      "https://cab-booking-project-2ggky7kva-harshilltyagis-projects.vercel.app",
+      "https://cab-booking-project-five.vercel.app",
     ],
     credentials: true,
   }),
