@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/authcontext";
-
-const API_BASE = "http://localhost:5000";
-
+import { API_BASE } from "../config";
 function DriverDashboard() {
   const { session, user, signOut } = useAuth();
   const navigate = useNavigate();
