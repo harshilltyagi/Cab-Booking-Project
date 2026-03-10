@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/authcontext";
 import MapView from "../components/MapView";
-import { API_BASE } from "../config";
+import API_BASE from "../config";
 
 function RiderDashboard() {
   const { session, user, profile, signOut } = useAuth();
