@@ -9,12 +9,12 @@ import reviewRoutes from "./routes/reviewRoutes.js";
 dotenv.config();
 
 const app = express();
-
 app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "cab-booking-project-git-main-harshilltyagis-projects.vercel.app",
+      "https://cab-booking-project-git-main-harshilltyagis-projects.vercel.app",
+      "https://cab-booking-project-2ggky7kva-harshilltyagis-projects.vercel.app",
     ],
     credentials: true,
   }),
